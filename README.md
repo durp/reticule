@@ -27,13 +27,13 @@ for building the low-level client.
 ## Usage
 
 ### Coinbase Pro prerequisites
-1. Open a [Coinbase](https://www.coinbase.com/) account.
+1. Open a [Coinbase](https://www.coinbase.com/join/4ty6) account[*](#support-open-source-development)
 
-1. Open a [Coinbase Pro Sandbox](https://public.sandbox.pro.coinbase.com) account, if you just want to play around.
+1. Open a [Coinbase Pro Sandbox](https://public.sandbox.pro.coinbase.com) account, if you just want to play around
 
-1. (Optional) Open a [Coinbase Pro](https://pro.coinbase.com) account, if you are ready to trade.
+1. (Optional) Open a [Coinbase Pro](https://pro.coinbase.com) account, if you are ready to trade
 
-1. [Create an API key](https://help.coinbase.com/en/pro/other-topics/api/how-do-i-create-an-api-key-for-coinbase-pro)
+1. [Create API keys](https://help.coinbase.com/en/pro/other-topics/api/how-do-i-create-an-api-key-for-coinbase-pro)
 
 
 ### Using the `reticule` CLI
@@ -129,3 +129,9 @@ Then use it to interact with Coinbase Pro:
   account, _ := cb.GetAccounts(ctx, "account-id")
   fmt.Println("%+v", account)
 ```
+
+### Support Open Source Development
+`*` Full disclosure, if you use this [link to open a Coinbase account](https://www.coinbase.com/join/4ty6)
+and spend $100, I get $10. It's a nice, no cost  way to support `reticule` development.
+
+Or feel free to just throw some monetary support towards the project in the form of a [crypto donation](https://commerce.coinbase.com/checkout/69d34200-9a06-4d31-849a-07001fdbe0c4)
